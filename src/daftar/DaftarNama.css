@@ -1,0 +1,89 @@
+/* Reset & body */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card utama */
+div {
+  background-color: #ffffff;
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #1f2937;
+  text-align: center;
+}
+
+/* Input & Button sejajar */
+input,
+button {
+  height: 40px;
+  font-size: 14px;
+}
+
+/* Input */
+input {
+  width: calc(100% - 120px);
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid #9ca3af;
+  outline: none;
+}
+
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.3);
+}
+
+/* Button */
+button {
+  width: 110px;
+  margin-left: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Table */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #2563eb;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tbody tr:hover {
+  background-color: #e5e7eb;
+}
