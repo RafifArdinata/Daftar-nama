@@ -12,7 +12,10 @@ export default defineConfig({
         hello_world : "hello-world.html",
         Contact: "contact.html",
         Task: "task.html",
-        Daftar: "daftar.html"
+        Daftar: "daftar.html",
+        Counter: "counter.html",
+        note: "note.html",
+        Data: "data.html"
       }
     }
   }
