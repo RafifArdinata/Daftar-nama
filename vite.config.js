@@ -15,7 +15,9 @@ export default defineConfig({
         Daftar: "daftar.html",
         Counter: "counter.html",
         note: "note.html",
-        Data: "data.html"
+        Data: "data.html",
+        profile: "profile.html",
+        undangan: "undangan.html"
       }
     }
   }
